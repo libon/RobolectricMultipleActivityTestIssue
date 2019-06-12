@@ -23,6 +23,7 @@ class ExampleEspressoTest {
         val appContext: Application = ApplicationProvider.getApplicationContext()
         launch(MainActivity::class.java)
         onView(withId(R.id.button1)).perform(click())
+        RobolectricHacks.launchNextActivity()
         onView(withId(R.id.text2)).check(
             matches(
                 allOf(
