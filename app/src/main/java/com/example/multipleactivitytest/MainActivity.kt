@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        my_button.setOnClickListener { startActivity(Intent(this, SecondScreenActivity::class.java)) }
+        button1.setOnClickListener { startActivity(Intent(this, SecondScreenActivity::class.java)) }
     }
 }

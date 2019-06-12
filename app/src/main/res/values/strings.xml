@@ -2,4 +2,6 @@
     <string name="app_name">Multiple Activity Test</string>
     <string name="activity1_name">Activity 1</string>
     <string name="activity2_name">Activity 2</string>
+    <string name="text1">Click me</string>
+    <string name="text2">You\'re in screen 2</string>
 </resources>
