@@ -1,8 +1,8 @@
 package com.example.multipleactivitytest
 
+import android.app.Activity
+import androidx.test.core.app.ActivityScenario
 
 object RobolectricHacks {
-    fun launchNextActivity() {
-        // Nothing to do on device/emulator
-    }
+    fun launchNextActivity(scenario: ActivityScenario<out Activity>?): ActivityScenario<Activity>? = null
 }
